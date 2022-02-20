@@ -51,6 +51,6 @@ subprojects{
 
 project(":auth"){
     dependencies {
-        compile project(':common')
+        implementation project(':common')
     }
 }

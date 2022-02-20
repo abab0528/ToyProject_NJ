@@ -1,6 +1,6 @@
-package com.nahyun.auth.config;
+package com.nj.auth.config;
 
-import com.nahyun.auth.UserDetailsVO;
+import com.nj.auth.UserDetailsVO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;

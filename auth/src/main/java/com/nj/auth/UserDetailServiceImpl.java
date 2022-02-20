@@ -1,6 +1,6 @@
-package com.nahyun.auth;
+package com.nj.auth;
 
-import com.nahyun.auth.exception.UserNotFoundException;
+import com.nj.auth.exception.UserNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetailsService;

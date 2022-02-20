@@ -1,6 +1,6 @@
-package com.nahyun.auth.config;
+package com.nj.auth.config;
 
-import com.nahyun.auth.CustomLoginSuccessHandler;
+import com.nj.auth.CustomLoginSuccessHandler;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.context.annotation.Bean;

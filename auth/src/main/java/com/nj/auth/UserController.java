@@ -1,10 +1,11 @@
-package com.nahyun.auth;
+package com.nj.auth;
 
 import com.sun.istack.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RequiredArgsConstructor
@@ -20,6 +21,11 @@ public class UserController {
     @GetMapping(value="/login")
     public String login(){
         return "user/login";
+    }
+
+    @PostMapping(value="/join")
+    public String singUp(){
+        return "user/join";
     }
 
 

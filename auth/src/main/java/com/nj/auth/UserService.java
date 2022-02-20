@@ -1,4 +1,4 @@
-package com.nahyun.auth;
+package com.nj.auth;
 
 public interface UserService {
     UserVO login(UserVO userVO);

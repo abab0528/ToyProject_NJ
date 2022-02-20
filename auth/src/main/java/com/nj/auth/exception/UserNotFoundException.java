@@ -1,4 +1,4 @@
-package com.nahyun.auth.exception;
+package com.nj.auth.exception;
 
 public class UserNotFoundException extends RuntimeException{
 

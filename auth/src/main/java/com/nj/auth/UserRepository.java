@@ -1,4 +1,4 @@
-package com.nahyun.auth;
+package com.nj.auth;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

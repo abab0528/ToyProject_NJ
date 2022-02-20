@@ -1,4 +1,4 @@
-package com.nahyun.auth.config;
+package com.nj.auth.config;
 
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
